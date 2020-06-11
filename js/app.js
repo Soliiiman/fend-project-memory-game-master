@@ -73,7 +73,7 @@ function shuffle(array) {
 
 //to restart Game
 function restartGame() {
-    moveCounter.innerHTML = `0 moves`;
+    moves = 0;
     matched = [];
     timerOn = false;
     seconds = 0;
